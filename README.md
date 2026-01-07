@@ -27,8 +27,8 @@ This project is a full-stack application for managing users, consisting of an AS
    ```bash
    dotnet run
    ```
-   *Note: The API usually starts at `http://localhost:5056`. Check the terminal output to confirm.*
-   *Swagger UI: `http://localhost:5056/swagger`*
+   *Note: The API usually starts at `http://localhost:5099`. Check the terminal output to confirm.*
+   *Swagger UI: `http://localhost:5099/swagger`*
 
 ### 2. Frontend (ReactJS)
 
@@ -38,7 +38,7 @@ This project is a full-stack application for managing users, consisting of an AS
    ```
 2. **Important:** Check `src/services/api.js` and ensure `API_URL` matches your backend port:
    ```javascript
-   const API_URL = "http://localhost:5056/api/users"; // Update port 5056 if needed
+   const API_URL = "http://localhost:5099/api/users";
    ```
 3. Install dependencies and start:
    ```bash
@@ -46,13 +46,3 @@ This project is a full-stack application for managing users, consisting of an AS
    npm start
    ```
    The application will run at `http://localhost:3000`.
-
-## Git Initialization
-
-To create a repository for this project:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Complete User Management System"
-```
